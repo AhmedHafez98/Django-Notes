@@ -1,0 +1,12 @@
+<head>
+<title>{{note}}</title>
+</head>
+<body>
+
+{{note.title}}
+<br>
+<hr>
+{{note.content}}
+<hr>
+<a href="{% url 'notes:edit_note' note.slug %}"">Edit</a>
+</body>
